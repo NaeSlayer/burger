@@ -1,0 +1,24 @@
+<img src="assets/images/friends.jpg" width="200" />
+
+<h1>Eat -Da-Burger</h1>
+
+
+
+
+
+
+<ul>
+    {{#each burgers}}
+    <li>
+        <p>{{this.id}}. {{this.burger_name}}</p>
+        <p></p>
+    </li>
+    {{/each}}
+</ul>
+
+<form action="/" method="POST">
+    <textarea type="text" name="task"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+<h3>Enter a burger you want to eat and click the "Submit" button</h3>
