@@ -1,6 +1,6 @@
 // var express = require("express");
 
-// yay
+
 
 
 var burger = require("../models/burger.js");
